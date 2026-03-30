@@ -1,0 +1,32 @@
+# requirements.txt for DB Analyst AI Backend
+
+# FastAPI Framework
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+python-dotenv>=1.0.0
+
+# LLM Provider SDKs
+groq>=0.13.0
+google-generativeai>=0.8.3
+openai>=1.58.1
+mistralai>=1.2.6
+cerebras-cloud-sdk
+
+# Database Drivers
+psycopg2-binary>=2.9.10
+pymysql>=1.1.1
+pymongo>=4.10.1
+motor>=3.6.0
+pymssql>=2.3.1
+oracledb>=2.5.0
+snowflake-connector-python>=3.12.3
+google-cloud-bigquery>=3.26.0
+
+# Async Support
+aiohttp>=3.9.0
+httpx>=0.26.0
+
+# CORS
+python-multipart>=0.0.6

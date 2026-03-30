@@ -199,6 +199,7 @@ const SchemaPanel: React.FC<SchemaPanelProps> = ({
                     <option value="Groq (Llama 3)">Groq (Llama 3)</option>
                     <option value="DeepSeek">DeepSeek</option>
                     <option value="Mistral AI">Mistral AI</option>
+                    <option value="Cerebras">Cerebras</option>
                   </select>
                   <ChevronDown className="absolute right-3 top-3 w-4 h-4 text-slate-400 pointer-events-none" />
                 </div>

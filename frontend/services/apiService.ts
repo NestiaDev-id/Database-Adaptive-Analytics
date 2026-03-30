@@ -124,7 +124,7 @@ export const getAvailableModels = async (): Promise<{ models: string[]; status: 
   } catch (error) {
     console.error("Failed to fetch models:", error);
     return {
-      models: ["Gemini (Google)", "GPT-4 (OpenAI)", "Groq (Llama 3)", "DeepSeek", "Mistral AI"],
+      models: ["Gemini (Google)", "GPT-4 (OpenAI)", "Groq (Llama 3)", "DeepSeek", "Mistral AI", "Cerebras"],
       status: {}
     };
   }

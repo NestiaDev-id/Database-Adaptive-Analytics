@@ -5,7 +5,7 @@ export interface Message {
   timestamp: Date;
 }
 
-export type AIModel = 'Gemini (Google)' | 'GPT-4 (OpenAI)' | 'Groq (Llama 3)' | 'DeepSeek' | 'Mistral AI';
+export type AIModel = 'Gemini (Google)' | 'GPT-4 (OpenAI)' | 'Groq (Llama 3)' | 'DeepSeek' | 'Mistral AI' | 'Cerebras';
 
 export interface DbConnection {
   host: string;
